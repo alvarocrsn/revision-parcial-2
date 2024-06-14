@@ -37,3 +37,36 @@ int main(){
 
     return 0;
 }
+
+
+string asientosDisponibles(vector<int> asientosDisponibles, int asientoElegido){
+    
+    string mensaje;
+    bool asientoDisponible = false;
+    
+    for(int i = 0; i < asientosDisponibles.size(); i++){
+        
+        if(asientosDisponibles[i] == asientosElegidos){
+            asientoDisponible = true;
+            break;
+        }
+        
+    }
+    
+    if(asientoDisponible){
+        mensaje = "Felicidades el asiento: "+ to_string(asientoElegido)+"esta libre"
+    }
+    
+}
+
+
+
+int main(){
+    
+    vector<int>asientos = {15, 28, 44, 45, 70};
+    
+    
+    
+    return 0;
+}
+
